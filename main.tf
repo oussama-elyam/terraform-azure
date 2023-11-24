@@ -98,8 +98,8 @@ resource "azurerm_windows_virtual_machine" "vm" {
   resource_group_name = azurerm_resource_group.GL.name
   location            = azurerm_resource_group.GL.location
   size                = "Standard_F2"
-  admin_username      = "adminuser"
-  admin_password      = "PAssword1234!"
+  admin_username      = "adminuserxxx"
+  admin_password      = "PAssword1234!xxx"
   network_interface_ids = [
     azurerm_network_interface.nic.id,
   ]
